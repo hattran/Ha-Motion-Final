@@ -1,6 +1,10 @@
 import {gsap} from "gsap";
+// import {GSDevTools} from "gsap/GSDevTools";
 
-import {loadingAnimation} from "./animate.js"
+import {logoAnimation} from "./shield-logo.js"
 
 const mainTL = gsap.timeline();
-mainTL.add(loadingAnimation());
+mainTL.add(logoAnimation());
+
+//instantiate GSDevTools with default settings
+// GSDevTools.create();

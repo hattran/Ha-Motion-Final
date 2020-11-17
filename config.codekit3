@@ -27,12 +27,23 @@
 		"oAP": "/Deploy/index.html",
 		"oF": 0
 		},
+	"/deploy/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/Design/Ha-Motion.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Design/Ha-Motion.sketch",
+		"oAP": "/design/Ha-Motion.sketch",
 		"oF": 0
 		},
 	"/Dev/content/zephyr-one.kit": {
@@ -67,17 +78,6 @@
 		"oAP": "/Deploy/index.html",
 		"oF": 2
 		},
-	"/Dev/js/animate.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/Dev/js/animate-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/Dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -86,6 +86,17 @@
 		"oA": 0,
 		"oAP": "/Deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/shield-logo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/shield-logo-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
