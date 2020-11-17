@@ -2,20 +2,3 @@
     Demo
 ============= */
 
-#svg-hw{
-    display: grid;
-    grid-template-columns: auto 40% auto;
-    grid-template-areas: ". icon .";
-
-    #loading-icon{
-        grid-area: icon;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        svg{
-            width: 50%;
-        }
-    }
-}
