@@ -2,17 +2,21 @@
     Demo
 ============= */
 
-#shield-logo{
+#zephyr{
     display: grid;
     grid-template-columns: auto 70% auto;
     grid-template-areas: ". shield .";
     background-color: black;
+
     >div{
         grid-area: shield;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
 
         svg{
             width: 100%;
