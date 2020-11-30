@@ -3,7 +3,7 @@ import {DrawSVGPlugin} from "gsap/DrawSVGPlugin";
 
 gsap.registerPlugin(DrawSVGPlugin);
 
-gsap.set("#dashboard-button",{alpha:0});
+gsap.set("#return",{alpha:0});
 gsap.set("#errors",{alpha:0});
 gsap.set("#zephyr-icon-map",{transformOrigin:"center"})
 
@@ -31,7 +31,10 @@ export function mainscreenAnimation(){
             .from("#play-button-stroke",{duration:1,drawSVG:0,delay:"-12"})
             .from("#song-title",{duration:1,scaleX:0,delay:"-11"})
             .from("#song-artist",{duration:1,scaleX:0,delay:"-10"})
-            .from("#bottom-line",{duration:1,drawSVG:0,delay:"-9"});
+            .from("#bottom-line",{duration:1,drawSVG:0,delay:"-9"})
+            .from("#round-button",{duration:1,drawSVG:"0",delay:"-8"})
+            .from("#round-button-blue",{duration:1,drawSVG:"0",delay:"-7"})
+            .from("#dashboard",{duration:1,scaleX:0,delay:"-7"});
 
     return mainscreenTL;
 }
