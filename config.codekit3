@@ -19,12 +19,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/Deploy/index.html": {
+	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Deploy/index.html",
+		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
 	"/deploy/js/scripts-min.js": {
@@ -46,12 +46,52 @@
 		"oAP": "/design/Ha-Motion.sketch",
 		"oF": 0
 		},
-	"/Dev/content/zephyr-one.kit": {
+	"/dev/content/dashboard-screen/dashboard-display.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/Dev/content/zephyr-one.html",
+		"oAP": "/dev/content/dashboard-screen/dashboard-display.html",
+		"oF": 0
+		},
+	"/dev/content/main-screen/flavor-elements.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/main-screen/flavor-elements.html",
+		"oF": 0
+		},
+	"/dev/content/main-screen/left-panels.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/main-screen/left-panels.html",
+		"oF": 0
+		},
+	"/dev/content/main-screen/map.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/main-screen/map.html",
+		"oF": 0
+		},
+	"/dev/content/main-screen/music.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/main-screen/music.html",
+		"oF": 0
+		},
+	"/dev/content/zephyr-one.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/zephyr-one.html",
 		"oF": 0
 		},
 	"/Dev/global/head.kit": {
@@ -77,6 +117,17 @@
 		"oA": 0,
 		"oAP": "/Deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/content/main-screen.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/content/main-screen-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/Dev/js/scripts.js": {
 		"bF": 4,
@@ -230,7 +281,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/Dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_zephyr-one.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -238,7 +289,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/Dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_zephyr-one.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
