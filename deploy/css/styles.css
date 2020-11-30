@@ -426,13 +426,13 @@ textarea {
 /* =============
     Demo
 ============= */
-#zephyr {
+#zephyr-container {
   display: grid;
   grid-template-columns: auto 70% auto;
   grid-template-areas: ". shield .";
   background-color: black;
 }
-#zephyr > div {
+#zephyr-container > div {
   grid-area: shield;
   height: 100vh;
   display: flex;
@@ -442,6 +442,9 @@ textarea {
   border-width: 2px;
   border-color: red;
 }
-#zephyr > div svg {
+#zephyr-container > div svg {
   width: 100%;
+}
+#zephyr-container > div svg #dashboard-display {
+  display: none;
 }

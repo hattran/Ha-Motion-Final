@@ -2,7 +2,7 @@
     Demo
 ============= */
 
-#zephyr{
+#zephyr-container{
     display: grid;
     grid-template-columns: auto 70% auto;
     grid-template-areas: ". shield .";
@@ -20,6 +20,10 @@
 
         svg{
             width: 100%;
+
+            #dashboard-display{
+                display:none;
+            }
         }
     }
 }
