@@ -438,9 +438,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
 }
 #zephyr-container > div svg {
   width: 100%;

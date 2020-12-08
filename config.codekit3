@@ -9,13 +9,13 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/Deploy/css/styles.css": {
+	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Deploy/css/styles-min.css",
+		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -129,7 +129,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/Dev/js/scripts.js": {
+	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
