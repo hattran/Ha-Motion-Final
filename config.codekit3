@@ -9,7 +9,7 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/deploy/css/styles.css": {
+	"/Deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
@@ -129,7 +129,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts.js": {
+	"/Dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,

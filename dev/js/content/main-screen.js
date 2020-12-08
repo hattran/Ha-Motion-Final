@@ -7,6 +7,7 @@ gsap.set("#return",{alpha:0});
 gsap.set("#errors",{alpha:0});
 gsap.set("#round-button-blue",{alpha:0,transformOrigin:"center"});
 gsap.set(".targets",{transformOrigin:"center"});
+gsap.set(".glows",{transformOrigin:"center"});
 gsap.set("#zephyr-icon-map",{transformOrigin:"center"});
 
 const mainscreenTL = gsap.timeline();
@@ -31,7 +32,8 @@ export function mainscreenAnimation(){
             .from("#world-map",{duration:2,alpha:0,delay:"-1.5"})
             .from("#zephyr-icon-map",{scale:0,duration:1,delay:"-1"})
             .fromTo(".targets",{scale:0},{scale:1,duration:1,stagger:0.2,delay:"-2"})
-            .fromTo(".targets",{alpha:1},{alpha:0,duration:1,stagger:0.2,repeat:5})
+            // .fromTo(".targets",{alpha:1},{alpha:0.5,duration:1,stagger:0.2,repeat:5},"targets-animation")
+            .fromTo(".glows",{alpha:0,scale:1},{alpha:0.5,scale:3,duration:0.8,stagger:0.2,repeat:5,yoyo:true},"targets-animation")
             .from("#play-button-fill",{duration:1,alpha:0,delay:"-12"},"music")
             .from("#play-button-stroke",{duration:1,drawSVG:0,delay:"-12"})
             .from("#song-title",{duration:.5,scaleX:0,delay:"-11"})
