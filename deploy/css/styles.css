@@ -442,6 +442,6 @@ textarea {
 #zephyr-container > div svg {
   width: 100%;
 }
-#zephyr-container > div svg #dashboard-display {
+#zephyr-container > div svg .hide {
   display: none;
 }

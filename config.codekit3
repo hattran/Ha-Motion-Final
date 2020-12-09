@@ -118,6 +118,17 @@
 		"oAP": "/Deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/content/dashboard.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/content/dashboard-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/content/main-screen.js": {
 		"bF": 0,
 		"ft": 64,
