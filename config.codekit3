@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/music/daisystheme.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/music/daisystheme.mp3",
+		"oF": 0
+		},
 	"/design/Ha-Motion.sketch": {
 		"cB": 0,
 		"ft": 8192,
