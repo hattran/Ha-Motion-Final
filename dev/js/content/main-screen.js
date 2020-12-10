@@ -15,7 +15,7 @@ const mainscreenTL = gsap.timeline();
 export function mainscreenAnimation(){
     mainscreenTL.from(".flavor-text-appear",{duration:0.5,scaleX:0},"flavor")
             .from("#top-line",{duration:1,drawSVG:0},"flavor")
-            .from("#zephyr-corner-stroke",{duration:2, drawSVG:"50% 50%"})
+            .from("#zephyr-corner-stroke",{duration:2,drawSVG:"50% 50%"})
             .from("#zephyr-corner-stroke",{duration:1,scale:4, x:300, y:-400})
             .from(".panel",{duration:2,drawSVG:"0",stagger:.1})
             .from(".panel-text",{duration:1,scaleY:0}, "zephyr-appear")
@@ -42,12 +42,4 @@ export function mainscreenAnimation(){
             .fromTo("#dashboard",{fill:"#FFF"},{duration:.5,ease:"none",fill:"#4AA8CC",yoyo:true,repeat:8},"-=5","button-animation");
 
     return mainscreenTL;
-}
-
-const mainscreenmalfunctionTL = gsap.timeline();
-
-export function mainscreenMalfunction(){
-    mainscreenmalfunctionTL.from("#error-dashboard",{duration:.2,alpha:0});
-
-    return mainscreenmalfunctionTL;
 }

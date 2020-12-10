@@ -6,7 +6,7 @@ gsap.set("#air-progress-dial",{transformOrigin:"center",rotation:"270"});
 gsap.set(".handles",{transformOrigin:"center"});
 
 const dashboardTL = gsap.timeline();
-const dashboardmalfunctionTL = gsap.timeline();
+const malfunctionTL = gsap.timeline();
 
 export function dashboardAnimation(){
 
@@ -39,22 +39,30 @@ export function dashboardAnimation(){
     return dashboardTL;
 }
 
-export function dashboardMalfunction(){
+export function malfunction(){
 
-    dashboardmalfunctionTL.fromTo("#air-progress-dial",{duration:0.2,drawSVG:"0% 75%"},{duration:0.5,drawSVG:"0% 90%"})
-            .fromTo("#air-progress-dial",{drawSVG:"0% 90%"},{duration:1,drawSVG:"0% 5%",yoyo:true,repeat:10},"malfunction")
-            .fromTo("#air-handle",{rotate:0},{duration:1.5,rotation:"-250",yoyo:true,repeat:15},"malfunction")
-            .fromTo("#vertical-handle",{rotation:"90"},{rotation:"270",yoyo:true,repeat:20},"malfunction")
-            .fromTo("#long-handle",{rotation:"-10"},{duration:2,rotation:"-200",yoyo:true,repeat:10},"malfunction")
-            .fromTo("#big-handle",{rotation:"-69"},{duration:1,rotation:"20",yoyo:true,repeat:10},"malfunction")
-            .to(".dashboard-text",{duration:.2,alpha:0,yoyo:true,repeat:20,stagger:.05},"malfunction")
-            .to("#zephyr-compass",{duration:.1,alpha:0,yoyo:true,repeat:100},"malfunction")
-            .fromTo("#round-button-blue",{strokeWidth:0},{duration:.5,strokeWidth:7,yoyo:true,repeat:8},"-=20","button-animation")
-            .fromTo("#return",{fill:"#FFF"},{duration:.5,ease:"none",fill:"#4AA8CC",yoyo:true,repeat:8},"-=20","button-animation")
-            .to("#dashboard-display",{alpha:0},"-=15")
-            .to("#dashboard-bg",{duration:1,scale:1,transformOrigin:"center",delay:"-15"})
-            .to("#return",{duration:0.5,alpha:0,delay:-14},"text-change-2")
-            .to("#dashboard",{duration:0.5,alpha:1,fill:"#FFF",delay:-14},"text-change-2");
+    malfunctionTL.fromTo("#air-progress-dial",{duration:0.2,drawSVG:"0% 75%"},{duration:0.5,drawSVG:"0% 90%"})
+            .fromTo("#air-progress-dial",{drawSVG:"0% 90%"},{duration:1,drawSVG:"0% 5%",yoyo:true,repeat:5},"malfunction")
+            .fromTo("#air-handle",{rotate:0},{duration:1.5,rotation:"-250",yoyo:true,repeat:10},"malfunction")
+            .fromTo("#vertical-handle",{rotation:"90"},{rotation:"270",yoyo:true,repeat:15},"malfunction")
+            .fromTo("#long-handle",{rotation:"-10"},{duration:2,rotation:"-200",yoyo:true,repeat:5},"malfunction")
+            .fromTo("#big-handle",{rotation:"-69"},{duration:1,rotation:"20",yoyo:true,repeat:5},"malfunction")
+            .to(".dashboard-text",{duration:.2,alpha:0,yoyo:true,repeat:10,stagger:.05},"malfunction")
+            .to("#zephyr-compass",{duration:.1,alpha:0,yoyo:true,repeat:70},"malfunction")
+            .fromTo("#round-button-blue",{strokeWidth:0},{duration:.5,strokeWidth:7,yoyo:true,repeat:8},"-=15","button-animation")
+            .fromTo("#return",{fill:"#FFF"},{duration:.5,ease:"none",fill:"#4AA8CC",yoyo:true,repeat:8},"-=15","button-animation")
+            .to("#dashboard-display",{alpha:0},"-=10")
+            .to("#dashboard-bg",{duration:1,scale:1,transformOrigin:"center",delay:"-10"})
+            .to("#return",{duration:0.5,alpha:0,delay:-9},"text-change-2")
+            .to("#dashboard",{duration:0.5,alpha:1,fill:"#FFF",delay:-9},"text-change-2")
+            .fromTo("#error-dashboard",{alpha:0},{duration:.5,alpha:1,yoyo:true,repeat:18,delay:-8.5})
+            .fromTo(".error",{alpha:0},{duration:.5,alpha:1,yoyo:true,repeat:10,delay:-8,stagger:.2})
+            .to("#logo-corner",{duration:.05,fill:"none",yoyo:true,repeat:5,delay:-7})
+            .to("#logo-corner",{duration:.05,fill:"none",yoyo:true,repeat:5,delay:-6})
+            .to("#logo-corner",{duration:.05,fill:"none",yoyo:true,repeat:5,delay:-5})
+            .to("#logo-corner",{duration:.05,fill:"none",yoyo:true,repeat:5,delay:-4})
+            .to("#logo-corner",{duration:.05,fill:"none",yoyo:true,repeat:5,delay:-3})
+            .to("#final-bg",{duration:1.5,scale:18, transformOrigin:"center",delay:-2});
 
-    return dashboardmalfunctionTL;
+    return malfunctionTL;
 }
