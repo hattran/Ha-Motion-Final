@@ -43,3 +43,11 @@ export function mainscreenAnimation(){
 
     return mainscreenTL;
 }
+
+const mainscreenmalfunctionTL = gsap.timeline();
+
+export function mainscreenMalfunction(){
+    mainscreenmalfunctionTL.from("#error-dashboard",{duration:.2,alpha:0});
+
+    return mainscreenmalfunctionTL;
+}
